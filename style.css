@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #F9F4FB;
+  --bg-secondary: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+
+  --color-title: #B52184;
+  --color-text: #312D64;
+
+  --ff-body: 'Mulish', sans-serif;
+
+  font-size: 62.5%;
+  --fs-body-title: clamp(3.2rem, 4vw, 5.8rem);
+  --fs-body-text: clamp(1.6rem, 2vw, 1.9rem);
+  --fs-header-text: clamp(2.0rem, 2vw, 3.2rem);
+  --fs-main-title: clamp(3.0rem, 3vw, 3.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+
+  background: var(--bg-primary);
+}
+
+#astronaut {
+  padding: 0 3.4rem 9.3rem 3.2rem;
+  width: 100%;
+
+  animation: moveDown 2s ease-in-out;
+}
+
+#astronaut img {
+  width: 100%;
+}
+
+
+#astronaut .scroll-button {
+  width: 5.8rem;
+  height: 10.5rem;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+#astronaut h1 {
+  font-size: var(--fs-body-title);
+  font-weight: 900;
+
+  text-align: center;
+  
+  color: var(--color-title);
+  line-height: 4.0rem;
+  margin-top: 1.7rem;
+}
+
+#astronaut p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--fs-header-text);
+  line-height: 2.5rem;
+
+  text-align: center;
+  
+  color: var(--color-text);
+  margin-bottom: 3.5rem;
+}
+
+#containers {
+  display: grid;
+  gap: 5.0rem;
+  
+  background: var(--bg-secondary);
+  padding: 5.3rem 3.9rem;
+  
+  width: 100%;
+  height: 100%;
+
+  animation: moveDown 2s ease-in-out;
+
+}
+
+.container {
+  border-radius: 1.9rem;
+  padding: 2.6rem;
+  background: var(--bg-primary);
+}
+
+.container img {
+  margin-bottom: 3.3rem;
+}
+
+.container h1 {
+  font-weight: 900;
+  font-size: var(--fs-main-title);
+
+  margin-bottom: 1.9rem;
+
+  line-height: 3.7rem;
+  color: var(--color-title);
+}
+
+.container p {
+  font-weight: 600;
+  font-size: var(--fs-body-text);
+  
+  line-height: 2.0rem;
+  color: var(--color-text);
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+  padding: 7.8rem 3.9rem 6.5rem;
+}
+
+#contact form input, form textarea {
+  font-weight: 600;
+  font-size: var(--fs-body-text);
+
+  border: 0.15rem solid var(--color-text);
+  border-radius: 1.6rem;
+ 
+  padding: 1.2rem 1.6rem 1.6rem;
+  color: var(--color-text);
+  
+  width: 100%;
+}
+
+#contact form textarea {
+  height: 12.6rem;
+}
+
+#contact form .input-wrapper {
+  margin-bottom: 2.4rem;
+}
+
+#contact form input::placeholder,
+#contact form textarea::placeholder {
+  font-family: var(--ff-body);
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: var(--fs-body-text);
+  
+}
+
+#contact form input::placeholder {
+  padding-left: 2.8rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  margin-bottom: 4.3rem;
+
+  font-weight: 900;
+  font-size: var(--fs-body-title);
+  line-height: 4.0rem;
+
+  color: var(--color-title);
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper img {
+  position: absolute;
+  left: 1.6rem;
+}
+
+#contact form button {
+  
+  background: var(--bg-secondary);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+
+  font-size: var(--fs-body-text);
+  color: #ffffff;
+
+  border: none;
+
+  margin-top: 2.4rem;
+}
+
+footer {
+  padding: 3.2rem 1.6rem;
+  background: var(--bg-secondary);
+
+  font-weight: 600;
+  font-size: var(--fs-body-text);
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media (min-width: 768px) {
+  #astronaut {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 2.9rem 10.3rem ;
+    align-items: center;
+  
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.0rem;
+  }
+
+  
+
+}
+@media (min-width: 1200px) {
+  #astronaut {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+        
+    padding-left: 12rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .title h1 {
+    font-weight: 900;
+    line-height: 7.3rem;
+    
+    margin-bottom: 1.5rem;
+  }
+  
+  .title p {
+    font-weight: 600;
+    line-height: 4rem;
+  }
+  
+  .message {
+    margin-top: 31.2rem;
+    margin-bottom: 10rem;
+  }
+
+  .scroll-button {
+    position: absolute;
+    top: 59.5rem;
+  }
+
+  #containers {
+    display: flex;
+  }
+
+  #contact {
+    background-image: url(./assets/footer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+  }
+
+  .inputone{
+    width: 50%;
+    height:50%;
+  }
+}
