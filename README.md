@@ -14,9 +14,9 @@
  <br/>
 
 <p align="center">
-  <img alt="final-layout-tablet-version" src="images/tablet.jpeg" width="60%" > <img alt="final-layout-mobile-version" src="images/mobile.jpeg" width="10%" > 
+  <img alt="final-layout-desktop-version" src="assets/Desktop - 1.png" width="60%" > <img alt="final-layout-mobile-version" src="assets/iphone 14 pro Max - 1.png" width="14.7%" > 
   
-  <img alt="final-layout-desktop-version" src="images/desktop1.png" width="90%" >  
+   
 </p>
 
 ## 🚀 Tecnologias
@@ -48,7 +48,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
       
 <br/>
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://esioalmeida.github.io/Intensivao/#containers)
 
 <br/>
 
