@@ -14,7 +14,7 @@
  <br/>
 
 <p align="center">
-  <img alt="final-layout-desktop-version" src="assets/Desktop - 1.png" width="60%" > <img alt="final-layout-mobile-version" src="assets/iphone 14 pro Max - 1.png" width="14.7%" > 
+  <img alt="final-layout-desktop-version" src="assets/Desktop - 1.png" width="60%" > <img alt="final-layout-mobile-version" src="assets/iPhone 14 Pro Max - 1.png" width="14.7%" > 
   
    
 </p>
