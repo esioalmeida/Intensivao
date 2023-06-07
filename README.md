@@ -54,7 +54,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/OlwuDcs18fmlvXQNi6zand/Stage-03---Grid-com-anima%C3%A7%C3%B5es-(Copy)). É necessário ter conta no [Figma](https://figma.com) para acessá-lo. 
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/Tdks1xfGKTuQnVHuuFsYbI/Explore-sem-limites-(Copy)?type=design&node-id=2-10958&t=slS6IAqW0AeZXZu4-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo. 
 <div>
   <img align="centeer" alt"FIGMA" height="30" widht"40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/>
 </div>
